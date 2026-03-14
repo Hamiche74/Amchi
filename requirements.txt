@@ -1,0 +1,21 @@
+# Payment Gateway Project Requirements
+
+# Core libraries
+flask==2.0.1
+requests==2.25.1
+
+# Database libraries
+SQLAlchemy==1.4.22
+psycopg2-binary==2.9.1
+
+# Payment integration libraries
+Stripe==2.60.0
+paypalrestsdk==1.14.0
+
+# Testing and development utilities
+pytest==6.2.3
+flake8==3.9.1
+
+# Security
+python-dotenv==0.17.1
+cryptography==3.4.8
